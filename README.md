@@ -17,9 +17,9 @@ npm i chai-screenshot --save-dev
 Then add it to your test files:
 ```javascript
 const { expect, use } = require('chai');
-const chai-image = require('chai-image');
+const chaiScreenshot = require("chai-screenshot");
 
-use(chai-image)
+use(chaiScreenshot);
 ```
 and finally use it in your test scripts (this example uses mocha):
 ```javascript
