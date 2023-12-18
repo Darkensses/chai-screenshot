@@ -1,0 +1,36 @@
+{
+  "name": "chai-screenshot",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha index.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Darkensses/chai-screenshot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Darkensses/chai-screenshot/issues"
+  },
+  "homepage": "https://github.com/Darkensses/chai-screenshot",
+  "keywords": [
+    "chai",
+    "screenshot",
+    "image",
+    "imagediff",
+    "plugin",
+    "chai-plugin",
+    "png"
+  ],
+  "author": "Jasiel Guillen <darkensses@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^4.3.10",
+    "pixelmatch": "^5.3.0",
+    "pngjs": "^7.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^10.2.0"
+  }
+}
