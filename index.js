@@ -73,8 +73,8 @@ module.exports = (chai) => {
       }
     }
 
-    const dir = options.output.dir ? options.output.dir : DEFAULT.output.dir;
-    const name = options.output.name ? options.output.name : DEFAULT.output.name;
+    const dir = options.output && options.output.dir ? options.output.dir : DEFAULT.output.dir;
+    const name = options.output && options.output.name ? options.output.name : DEFAULT.output.name;
     const actual = this._obj;
 
     chai.assert(typeof actual === 'string' || Buffer.isBuffer(actual), `Actual screenshot should be an encoded Base64 string, file path string or a Buffer but received a ${typeof actual}`);
